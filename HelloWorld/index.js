@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/sirentest', (req, res) => {
-    res.send('Wiu wiu wiu!');
+app.get('/about', (req, res) => {
+    res.send('About Page!');
   });
   
 
